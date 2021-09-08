@@ -30,6 +30,13 @@ export default {
       options: {
         hotspot: true,
       },
+      fields: [
+        {
+          type: 'text',
+          name: 'alt',
+          title: 'alt',
+        }
+      ]
     },
     {
       name: 'categories',
