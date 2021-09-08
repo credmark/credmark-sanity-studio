@@ -54,25 +54,30 @@ export default {
         ],
       },
     },
-    {
-      type: 'code',
-      options: {
-        withFilename: true
-      }
-    },
     // You can add additional types here. Note that you can't use
     // primitive types such as 'string' and 'number' in the same array
     // as a block type.
     {
       type: 'image',
-      options: {hotspot: true},
       fields: [
         {
           type: 'text',
           name: 'alt',
           title: 'alt',
+          options:{
+            isHighlighted: true
+          }
         }
-      ]
+      ],
+      options: {
+        hotspot: true
+      },
+    },
+    {
+      type: 'code',
+      options: {
+        withFilename: true
+      }
     },
   ],
 }
