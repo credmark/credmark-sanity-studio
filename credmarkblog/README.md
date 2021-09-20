@@ -1,3 +1,21 @@
+Preparation
+yarn global add @sanity/cli
+Running
+To launch local Sanity Studio:
+
+sanity start
+Sanity Studio is available at http://localhost:3333.
+
+Code is local, but data is kept in Sanity's cloud.
+
+There is an instance hosted by sanity: https://toucan.sanity.studio/
+
+After merging changes to master branch, redeploy public studio:
+
+sanity deploy
+
+
+
 # Sanity Blogging Content Studio
 
 Congratulations, you have now installed the Sanity Content Studio, an open source real-time content editing environment connected to the Sanity backend.
