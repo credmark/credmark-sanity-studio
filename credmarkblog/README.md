@@ -1,9 +1,17 @@
 Preparation
+
+```
 yarn global add @sanity/cli
+```
+
 Running
+
 To launch local Sanity Studio:
 
+```
 sanity start
+```
+
 Sanity Studio is available at http://localhost:3333.
 
 Code is local, but data is kept in Sanity's cloud.
