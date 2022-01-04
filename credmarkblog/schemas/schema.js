@@ -9,6 +9,7 @@ import blockContent from './blockContent'
 import category from './category'
 import post from './post'
 import author from './author'
+import blogCategory from './blogCategory'
 
 // Media post schemas
 import mediaPost from './mediaPost'
@@ -26,6 +27,7 @@ export default createSchema({
     post,
     author,
     category,
+    blogCategory,
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
     blockContent,

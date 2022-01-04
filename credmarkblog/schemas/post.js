@@ -24,6 +24,12 @@ export default {
       to: {type: 'author'},
     },
     {
+      name: 'blogcategory',
+      title: 'Blog Category',
+      type: 'reference',
+      to: {type: 'blogcategory'},
+    },
+    {
       name: 'mainImage',
       title: 'Main image',
       type: 'image',
@@ -39,12 +45,6 @@ export default {
       ]
     },
     {
-      name: 'categories',
-      title: 'Categories',
-      type: 'array',
-      of: [{type: 'reference', to: {type: 'category'}}],
-    },
-    {
       name: 'publishedAt',
       title: 'Published at',
       type: 'datetime',
@@ -57,6 +57,12 @@ export default {
       name: 'body',
       title: 'Body',
       type: 'blockContent',
+    },
+    {
+      name: 'categories',
+      title: 'Categories',
+      type: 'array',
+      of: [{type: 'reference', to: {type: 'category'}}],
     },
   ],
 
