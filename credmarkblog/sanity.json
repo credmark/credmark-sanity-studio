@@ -1,11 +1,11 @@
 {
   "root": true,
-  "project": {
-    "name": "Credmark Blog"
-  },
   "api": {
     "projectId": "9y1au457",
     "dataset": "production"
+  },
+  "project": {
+    "name": "Credmark Blog"
   },
   "plugins": [
     "@sanity/base",
