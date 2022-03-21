@@ -8,6 +8,15 @@
  *    type: 'blockContent'
  *  }
  */
+
+ import React from 'react'
+
+ const BorderBoxStyle = props => (
+  <span style={{borderSizing: 'border-box', border: '1px solid rgb(226, 226, 226)', margin: '0.5rem 0px 1.5rem;'}}>{props.children}</span>
+)
+
+
+
 export default {
   title: 'Block Content',
   name: 'blockContent',
@@ -27,7 +36,13 @@ export default {
         {title: 'H3', value: 'h3'},
         {title: 'H4', value: 'h4'},
         {title: 'Quote', value: 'blockquote'},
-        {title: 'Border box', value: 'border-box'},
+        {
+          title: 'Borderbox',
+          value: 'border-box',
+          blockEditor: {
+            render: BorderBoxStyle
+          }
+        },
       ],
       lists: [
       {title: 'Bullet', value: 'bullet'}, 
