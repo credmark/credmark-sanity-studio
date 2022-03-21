@@ -59,6 +59,11 @@ export default {
       }
     },
     {
+      name: 'borderBox',
+      title: 'Border Box',
+      type: 'blockContent',
+    },
+    {
       name: 'body',
       title: 'Body',
       type: 'blockContent',
