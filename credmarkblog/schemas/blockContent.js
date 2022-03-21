@@ -27,6 +27,7 @@ export default {
         {title: 'H3', value: 'h3'},
         {title: 'H4', value: 'h4'},
         {title: 'Quote', value: 'blockquote'},
+        {title: 'Border box', value: 'border-box'},
       ],
       lists: [
       {title: 'Bullet', value: 'bullet'}, 
