@@ -12,13 +12,7 @@ export default {
           title: "My Netlify deploys",
           sites: [
             {
-              name: "staging-credmark-website",
-              apiId: "0806f25c-c95a-41e0-9e97-f02376f19eb8",
-              buildHookId: "61f6b823d5bc6ed1bdd0608c",
-              title: "Credmark [Staging]",
-            },
-            {
-              name: "staging-credmark-website-v2",
+              name: "staging-credmark-two",
               apiId: "24030de2-bcaf-4c94-b621-d4d106df402d",
               buildHookId: "624c76b26f87757e736fe1ea",
               title: "Credmark [Staging V2]",
