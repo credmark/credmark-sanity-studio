@@ -54,7 +54,7 @@ export default {
       title: 'Published at',
       type: 'datetime',
       options: {
-        dateFormat: 'MM/DD/YYYY',
+        dateFormat: 'DD/MM/YYYY',
         calendarTodayLabel: 'Today'
       }
     },
