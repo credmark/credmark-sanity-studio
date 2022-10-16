@@ -59,6 +59,18 @@ export default {
         // Annotations can be any object structure – e.g. a link or a footnote.
         annotations: [
           {
+            name: 'footnote',
+            type: 'object',
+            title: 'Footnote',
+            fields: [
+              {
+                name: 'text',
+                type: 'array',
+                of: [{type: 'block'}]
+              }
+            ]
+          },
+          {
             title: 'URL',
             name: 'link',
             type: 'object',
