@@ -71,6 +71,11 @@ export default {
             ]
           },
           {
+            name: 'code',
+            title: 'Code Block',
+            type: 'code'
+          },
+          {
             title: 'URL',
             name: 'link',
             type: 'object',
